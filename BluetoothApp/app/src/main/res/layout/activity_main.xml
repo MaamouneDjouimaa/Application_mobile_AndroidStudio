@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/activate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activer Bluetooth" />
+
+    <Button
+        android:id="@+id/disable_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Désactiver Bluetooth" />
+
+    <Button
+        android:id="@+id/research_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rechercher" />
+
+    <ListView
+        android:id="@+id/devices_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

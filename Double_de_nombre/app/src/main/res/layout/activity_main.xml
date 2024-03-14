@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Le conteneur principal -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Le label pour l'entrée de l'utilisateur -->
+    <TextView
+        android:id="@+id/input_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrer un nombre:"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Le champ de saisie pour l'entrée de l'utilisateur -->
+    <EditText
+        android:id="@+id/input_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input_label"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Le bouton pour lancer le calcul -->
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculer"
+        android:layout_below="@id/input_number"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Le label pour afficher le résultat -->
+    <TextView
+        android:id="@+id/output_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le double est :"
+        android:textSize="20sp"
+        android:layout_below="@id/calculate_button"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Le champ de texte pour afficher le résultat -->
+    <TextView
+        android:id="@+id/output_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@id/output_label"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_calculate"
+        android:title="Calculer" />
+    <item
+        android:id="@+id/action_common"
+        android:title="Common" />
+    <item
+        android:id="@+id/action_clear"
+        android:title="Clear" />
+</menu>

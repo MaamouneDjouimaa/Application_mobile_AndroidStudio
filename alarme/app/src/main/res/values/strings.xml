@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exo5FinalE14</string>
+    <string name="alarm_title">Alarme</string>
+    <string name="alarm_message">Fin de la durée programmée</string>
+    <string name="toast_alarm_trigger">Cette alarme se déclenchera dans %1$d heures et %2$d minutes</string>
+    <string name="toast_time_up">Le temps est écoulé</string>
+</resources>
